@@ -1,0 +1,26 @@
+{
+  "name": "web-bluetooth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "sass": "node-sass -w  style.scss style.css",
+    "start": "node server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfarid/bluetooth_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfarid/bluetooth_test/issues"
+  },
+  "homepage": "https://github.com/gfarid/bluetooth_test#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

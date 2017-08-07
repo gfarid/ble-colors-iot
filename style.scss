@@ -1,0 +1,243 @@
+  $red: red;
+  $green: green;
+  $blue: blue;
+  $gold:goldenrod;
+  $width:180px;
+  $height:180px;
+  * {
+        box-sizing: border-box;
+    }
+
+  *:focus {
+    outline: none;
+  }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+:disabled {
+    cursor: not-allowed !important;
+}
+  
+  .title {
+    margin-bottom: 40px;
+    color: ivory;
+  }
+
+  .subtitle {
+    color: navajowhite;
+  }
+
+.btn {
+    border-radius: 100%;
+}
+
+.red {
+    background: $red
+}
+
+.blue {
+    background: $blue;
+}
+
+.green {
+    background: $green;
+}
+
+.carousel-inner .item {
+    text-align: center;
+}
+
+.shape {
+    width: $width;
+    height: $height;
+    // margin-top: 30px;
+    border: 1px solid bisque;
+    font-size: 20px;
+    color: springgreen;
+    cursor: pointer;
+}
+
+button.next {
+    width: 70px;
+    background: gray;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    border: 1px solid gold;
+    font-size: 14px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+button.prev {
+    width: 70px;
+    background: gray;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid $gold;
+    font-size: 14px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.connect {
+    margin-top: 50px;
+    color: white;
+    padding: 30px;
+    background-color: steelblue;
+    opacity: 1;
+    z-index: 22222222;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.switch-on-off {
+    font-size: 15px;
+    position: absolute;
+    bottom: 2%;
+    right: 0%;
+    color: aliceblue;
+    border: 1px solid rebeccapurple;
+    background: indianred;
+    color: currentColor;
+    padding: 5px;
+    text-align: center;
+    width: 75px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(-40deg); /* Standard syntax */
+}
+
+.btn-primary:hover {
+    color: #fff;
+}
+
+button.mic {
+    background: url(img/mic.png);
+    width: 100px;
+    background-size: 50px 40px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: gray;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+.mic-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-inner {
+    width:999999px;
+    margin-left:0;
+    margin-bottom: 15px;
+    font-size: 0px;
+    transition: all 0.5s;
+}
+
+.carousel-out {
+    width:$width;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    // border-radius: 50%;
+}
+
+.item {
+    display: inline-block;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 210px;
+    background: rgba(47, 79, 79,0.8);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.top-section {
+    padding: 20px 20px 20px 20px;
+}
+
+.slideBtns {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.inner-content {
+    padding-bottom: 20px;
+}
+
+
+a.pdf-file {
+    border: 1px solid gold;
+    color: whitesmoke;
+    border-radius: 10px;
+    background: gray;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    top:75%;
+    left: calc(50% - 100px);
+}
+
+@media only screen and (min-width: 760px) {
+    button.next {
+        margin-left: 200px;
+    }
+}
+
+.adsContainer {
+  border: 1px solid gold;
+  background: cadetblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 5px;
+//   text-align: center;
+  padding: 6px;
+  font-weight: bold;
+  color: floralwhite;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .adsContainer a {
+    color: lime;
+}
+
+p.close {
+    position: absolute;
+    right: 0px;
+    top: -17px;
+    border-radius: 100%;
+    border: 1px solid aliceblue;
+    padding: 1px;
+}
